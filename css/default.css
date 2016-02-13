@@ -1,0 +1,304 @@
+﻿/*Setting up compatibility for older browsers and removing automatic styling to help the page display correctly on all browsers*/
+header, section, footer, aside, nav, main, article, figure
+{ 
+	display: block;
+}
+
+*
+{
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*CSS for sections that appear more than once in the page*/
+p
+{
+	font-size: 12pt;
+	color: #000000;
+}
+
+h1
+{
+	font-size: 24pt;
+	font-weight: bold;
+	letter-spacing: -1pt;
+	color: #00B418;
+	line-height: 80%;
+	vertical-align: middle;
+}
+
+h2
+{
+	font-size: 20pt;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+/*CSS for specific sections of the website that appear once (arranged top > bottom  then left > right*/
+#container
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 800px;
+	margin: auto;
+}
+
+/*Styling information specific to the header section*/
+header
+{
+	height: 140px;
+	width: 100%;
+	display:inline-block;
+}
+
+
+#wca_logo img
+{
+	height: 140px;
+	width: auto;
+	vertical-align: middle;
+}
+
+
+#contact_info
+{
+	padding-top: 22.5px;
+	float: right;
+	text-align: right;
+}
+
+
+/*Styling for Navigation Menu*/
+#menu_bar
+{
+	margin-top: 10px;
+	height: 55px;
+}
+
+
+nav
+{
+	display: inline-block;
+}
+
+
+/* Styling for the menu bar */
+nav ul
+{
+	background-color: #51FF51;
+	background: linear-gradient(#51FF51 0%, #99FF99 100%);
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0px 10px;
+	list-style: none;
+	position: relative;
+	display: table;
+}
+
+
+nav ul li a.current
+{
+	background: #00B418;
+	color: #B7FFB7;
+}
+
+
+nav ul li a.sub_current
+{
+	background: #009112;
+	color: #B7FFB7;
+}
+
+
+nav ul:after
+{
+/*	content: "";*/
+	clear: both;
+	display: block;
+}
+
+
+/* Styling for menu buttons */
+nav ul li
+{
+	float: left;
+}
+
+
+nav ul li:hover
+{
+	background: #00B418;
+	background: linear-gradient(#00B418 0%, #43C300 100%);
+}
+
+
+nav ul li:hover a
+{
+	color: #B7FFB7;
+}
+
+
+nav ul li a
+{
+	display: block;
+	padding: 20px 5px;
+	color: black;
+	font-weight:bold;
+	text-decoration: none;
+	font-size: 9pt;
+}
+
+
+nav ul li:hover > ul
+{
+	display:block;
+}
+
+
+nav ul ul
+{
+	display:none;
+	background: #00B418;
+	border-radius: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 100%;
+}
+
+
+nav ul ul li
+{
+	float: none;
+	border-top: 1px solid #006C10;
+	border-bottom: 1px solid #00480A;
+	position: relative;
+}
+
+
+nav ul ul li a
+{
+	padding: 15px 5px;
+	color: #B7FFB7;
+}
+
+
+nav ul ul li a:hover
+{
+	background: #009112;
+}
+
+
+nav ul ul ul
+{
+	position: absolute;
+	left: 100%;
+	top: 0;
+	white-space: nowrap;
+}
+
+
+/* Styling for the Login and Logout Panel */
+#login_panel
+{
+	height: 55px;
+	width: 180px;
+	padding: 0 5px;
+	float: right;
+	background-color: #51FF51;
+}
+
+
+#login_form
+{
+	color: black;
+	font-weight:bold;
+	height: 55px;
+}
+
+
+#login_form p
+{
+	font-size: 9pt;
+	vertical-align: text-bottom;
+	display: inline-block;
+}
+
+
+#login_form p.error_css
+{
+	font-size: 7pt;
+	color: red;
+	vertical-align: 50%;
+}
+
+
+#login_form input
+{
+	margin-top: 2px;
+	width: 90px;
+	font-size: 8pt;
+	float: right;
+}
+
+
+#login_form input.submit_button
+{
+	margin-top: 0px;
+	width: 50px;
+	cursor: pointer;
+}
+
+
+#logout_form
+{
+	color: black;
+	font-weight: bold;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+
+#logout_form p
+{
+	font-size: 9pt;
+	display: inline-block;
+}
+
+
+#logout_form input
+{
+	font-size: 8pt;
+	display: block;
+	margin: auto;
+	margin-top: 7.5px;
+	width: 50px;
+	cursor: pointer;
+}
+
+
+/* Spacing for the Page Description Heading */
+#description
+{
+	margin-top: 7px;
+}
+
+#main_content
+{
+	margin-top: 10px;
+}
+
+
+/* Styling for the Copyright Information and Footer */
+footer
+{
+	margin-top: 10px;
+	width: 800px;
+}
+
+
+footer p
+{
+	text-align: center;
+}

@@ -1,0 +1,91 @@
+﻿/*  Add Vehicle Form Styling  */
+h2
+{
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+#add_new_staff
+{
+	display: inline-block;
+	width: 800px;
+	height: auto;
+	background-color: #CFFFDC;
+}
+
+
+#add_new_staff p
+{
+	font-size: 8pt;
+	font-weight: bold;
+	float: left;
+	display: inline-block;
+}
+
+
+#add_new_staff input, select
+{
+	width: 80%;
+	font-size: 8pt;
+	display: block;
+	float: right;
+}
+
+
+#table_container
+{
+	width: 760px;
+	display: block;
+	margin: 0 auto;
+
+}
+
+
+#form_input_left 
+{
+	display: inline-block;
+	width: 45%;
+}
+
+
+#form_input_right
+{
+	float: right;
+	width: 50%;
+}
+
+
+#form_input_right .staff_add_pass
+{
+	width: 60%;
+}
+
+
+#form_input_right:after
+{
+	clear: both;
+	content: "";
+}
+
+
+#add_new_staff .staff_add_sub
+{
+	float: none;
+	display: block;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	width: 150px;
+	cursor: pointer;
+}
+
+
+#add_new_staff p.add_staff_error
+{
+	color: red;
+	display: inline-block;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}

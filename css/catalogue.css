@@ -1,0 +1,148 @@
+﻿/* Styling for Table Filters Area */
+#left_content_div
+{
+	float: left;
+	width: 200px;
+	min-height: 200px;
+	height: auto;
+	background-color: #81FFC2;
+}
+
+
+#car_filter p
+{
+	font-size: 8pt;
+	display: inline-block;
+	vertical-align: 50%;
+	margin-top: 5px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+
+.down-arw
+{
+	border-color: #000000 transparent #000000 transparent;
+	border-style: solid;
+	border-width: 6px 6px 0 6px;
+	width: 0;
+	height: 0;
+	display: inline-block;
+}
+
+
+.up-arw
+{
+	border-color: #000000 transparent #000000 transparent;
+	border-style: solid;
+	border-width: 0px 6px 6px 6px;
+	width: 0;
+	height: 0;
+	display: inline-block;
+}
+
+
+#car_filter input, select
+{
+	display: inline-block;
+	width: 40%;
+	font-size: 8pt;
+	vertical-align: 50%;
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+
+#left_content_div form h1
+{
+	font-size: 12pt;
+	text-align: center;
+	color: black;
+	letter-spacing: .025em;
+	margin-top: 5px;
+}
+
+
+#car_filter input.update_button:
+{
+	clear: both;
+	float: none;
+	display: block;
+}
+
+
+#car_filter input.update_button
+{
+	display: block;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	float: none;
+
+}
+
+
+/* Styling for Display Area */
+#right_content_div
+{
+	display: inline-block;
+	width: 590px;
+	height: auto;
+	background-color: #CFFFDC;
+	margin-left: 10px;
+}
+
+
+#right_content_div table
+{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+}
+
+
+#right_content_div td
+{
+	border-style: solid;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-color: black;
+}
+
+
+#right_content_div td, th
+{
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+}
+
+
+#right_content_div .table_heads
+{
+	text-align: center;
+}
+
+
+#right_content_div .car_thumb
+{
+	width: 100px;
+	height: auto;
+	vertical-align: middle;
+}
+
+
+#right_content_div td
+{
+	text-align: center;
+}
+
+
+#right_content_div .on_special
+{
+	font-weight: bold;
+	color: #009900;
+}

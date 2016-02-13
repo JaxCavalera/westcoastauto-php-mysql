@@ -1,0 +1,153 @@
+﻿/*  Add Vehicle Form Styling  */
+#add_new_car
+{
+	display: inline-block;
+	width: 800px;
+	height: auto;
+	background-color: #CFFFDC;
+}
+
+
+#add_new_car p
+{
+	font-size: 8pt;
+	font-weight: bold;
+	float: left;
+	display: block;
+}
+
+
+#add_new_car input, select
+{
+	width: 75px;
+	font-size: 8pt;
+	display: block;
+	float: right;
+}
+
+
+#form_input_left, #form_input_middle_left, #form_input_middle_right, #form_input_right
+{
+	display: inline-block;
+	width: 180px;
+	float: left;
+	padding: 10px;
+}
+
+.car_add_sub
+{
+	margin-bottom: 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+
+.add_car_error
+{
+	color: red;
+	clear: both;
+	display: block;
+	margin-left: 10px;
+	margin-top : 5px;
+}
+
+
+/*  Delete Vehicles Form Styling  */
+.down-arw
+{
+	border-color: #000000 transparent #000000 transparent;
+	border-style: solid;
+	border-width: 6px 6px 0 6px;
+	width: 0;
+	height: 0;
+	display: inline-block;
+}
+
+
+.up-arw
+{
+	border-color: #000000 transparent #000000 transparent;
+	border-style: solid;
+	border-width: 0px 6px 6px 6px;
+	width: 0;
+	height: 0;
+	display: inline-block;
+}
+
+
+#del_existing_car
+{
+	display: inline-block;
+	width: 800px;
+	height: auto;
+	background-color: #CFFFDC;
+	margin-top: 20px;
+}
+
+
+#del_existing_car table
+{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+}
+
+
+#del_existing_car td
+{
+	border-style: solid;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-color: black;
+}
+
+
+#del_existing_car td, th
+{
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+}
+
+
+#del_existing_car .table_heads
+{
+	text-align: center;
+}
+
+
+#del_existing_car .car_thumb
+{
+	width: 100px;
+	height: auto;
+	vertical-align: middle;
+}
+
+
+#del_existing_car td
+{
+	text-align: center;
+}
+
+
+#del_existing_car .on_special
+{
+	font-weight: bold;
+	color: #009900;
+}
+
+.del_sel_cars
+{
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	padding: 0px 5px;
+}
+
+h2
+{
+	text-align: center;
+	margin-top: 10px;
+}

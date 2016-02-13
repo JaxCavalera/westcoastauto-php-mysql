@@ -1,0 +1,76 @@
+﻿/*  Delete Vehicles Form Styling  */
+#main_content
+{
+	display: inline-block;
+	width: 800px;
+	height: auto;
+	background-color: #CFFFDC;
+	margin-top: 20px;
+}
+
+
+#main_content table
+{
+	padding-bottom: 10px;
+	padding-top: 5px;
+	margin: 0 auto;
+}
+
+
+#main_content td
+{
+	border-style: solid;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	border-color: black;
+}
+
+
+#main_content td, th
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+#main_content .table_heads
+{
+	text-align: center;
+}
+
+
+#main_content .car_thumb
+{
+	width: 100px;
+	height: auto;
+	vertical-align: middle;
+}
+
+
+#main_content td
+{
+	text-align: center;
+}
+
+
+#main_content .on_special
+{
+	font-weight: bold;
+	color: #009900;
+}
+
+.del_sel_cars
+{
+	vertical-align: middle;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	padding: 0px 5px;
+}
+
+h2
+{
+	text-align: center;
+	margin-top: 10px;
+}
